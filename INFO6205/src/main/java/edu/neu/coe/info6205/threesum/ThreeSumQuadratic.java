@@ -63,12 +63,12 @@ public class ThreeSumQuadratic implements ThreeSum {
     private final int length;
 
     public static void main(String[] args) {
-        int j = -15000;
-        int n = 16000;
+        int j = -1000;
+        int n = 2000;
         int arr[] = new int[n];
         for(int i=0; i<n; i++) {
             arr[i] = j;
-            j += 20;
+            j += 10;
         }
         ThreeSumQuadratic tsq = new ThreeSumQuadratic(arr);
         Stopwatch stopwatch = new Stopwatch();
