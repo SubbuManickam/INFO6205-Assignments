@@ -16,8 +16,8 @@ public class UnionFind_Client {
 
             if(!uf.connected(x,y)) {
                 uf.union(x,y);
-                pairs++;
             }
+            pairs++;
 
         }
 
